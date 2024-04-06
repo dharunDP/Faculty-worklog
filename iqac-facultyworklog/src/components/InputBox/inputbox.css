@@ -1,0 +1,15 @@
+.inputbox {
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 5px;
+    width: 250px;
+    font-weight: 550;
+    background-color: var(--text-box);
+}
+
+.label-with-field{
+    display: flex;
+    justify-content: space-between;
+}
