@@ -1,11 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "@mui/lab": "^5.0.0-alpha.170",
-    "@mui/material": "^5.15.15",
-    "dayjs": "^1.11.10"
-  }
-=======
   "name": "iqac",
   "private": true,
   "version": "0.0.0",
@@ -14,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -53,6 +48,6 @@
   "main": "vite.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
->>>>>>> c7d212a (first commit)
+  "license": "ISC",
+  "homepage": "https://dharunpranavSK.github.io/Faculty-worklog"
 }
