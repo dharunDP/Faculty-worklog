@@ -1,0 +1,16 @@
+
+
+  .input-group {
+    margin-bottom: 15px;
+    grid-template-columns: 30% auto;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    
+  }
+
+  .entire-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

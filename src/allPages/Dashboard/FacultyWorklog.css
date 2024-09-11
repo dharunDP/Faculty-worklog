@@ -1,0 +1,138 @@
+.input-box-1 {
+  margin-left: 1%;
+  margin-top: 50px;
+}
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+    
+  }
+
+.input-label {
+  width: 120px; /* Adjust label width as needed */
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif; /* Set Poppins as the font family */
+font-weight: bold; /* Set font weight to bold */
+  
+}
+
+
+
+
+.input {
+  flex: 1;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif; /* Set font family */
+  font-size: 16px; /* Set font size */
+  border-radius: 4px; /* Add border radius */
+  color: var(--text-box);
+  color: #333; /* Set text color */
+}
+.date{
+  width: 100%;
+}
+
+.entire-form{
+  margin: 3% 10% 3% 3%;
+
+}
+.workLogForm {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: var(--card-1);
+  padding: 20px;
+}
+
+
+.faSquarePlus,
+.faTrashCan,
+.faCircleChevronUp,
+.faCircleChevronDown {
+  color: #116ACC;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.icons{
+  display: flex;
+  flex-direction: row-reverse;
+  gap:15px;
+  margin-right: 20px;
+}
+
+
+
+
+
+/* Add this CSS to your stylesheet
+.date-time-picker-container {
+background-color: white;
+width: 100%;
+
+}
+
+.date-time-picker-input{
+background-color: white;
+color: black;
+width: 1235px;
+flex: 1;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+} */
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .input-label {
+    width: 100px;
+  }
+
+  .input {
+    padding: 6px;
+  }
+
+  .workLogForm {
+    padding: 15px;
+  }
+
+  .addlog,
+  .submitworklog {
+    padding: 8px 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .input-label {
+    width: 80px;
+  }
+
+  .input {
+    padding: 5px;
+  }
+
+  .workLogForm {
+    padding: 10px;
+  }
+
+  .addlog,
+  .submitworklog {
+    padding: 6px 12px;
+  }
+}
+
+/* .react-datepicker-wrapper {
+  flex: 1;
+}
+
+.react-datepicker-wrapper input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; 
+  box-sizing: border-box; 
+} */

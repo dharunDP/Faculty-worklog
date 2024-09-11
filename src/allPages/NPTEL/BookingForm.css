@@ -1,0 +1,85 @@
+.booking-form {
+  width: 80%;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+.input-label {
+  width: 120px; /* Adjust label width as needed */
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif; /* Set Poppins as the font family */
+  font-weight: bold; /* Set font weight to bold */
+}
+
+.booking-form {
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around; /* Adjust spacing as needed */
+}
+h1 {
+  padding: 20px;
+  color: #2b3674;
+}
+.widget {
+  width: 80%;
+  margin-left: 10%;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  grid-template-columns: 30% auto;
+  align-items: center;
+  display: flex;
+  border-radius: 20px;
+  
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.Buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.entire-form{
+  margin: 3% 10% 3% 3%;
+
+}
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+
+  }
+
+.submit-button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* App.css */
+.input-group {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 15% auto;
+  align-items: center;
+}

@@ -1,0 +1,70 @@
+.total-v-navbar {
+    height: fit-content;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.menu-item {
+    color: var(--text-black);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.menu-item:hover .nav-icons {
+    background-color: var(--icon-hover-backgrd);
+    color: var(--background-2);
+    border-radius: 5px;
+}
+
+.menu-item:hover {
+    background-color: var(--card-2);
+    color: var(--button);
+}
+
+.nav-icons {
+    margin: 0px 10px 0px 5px;
+    padding: 5px;
+    color: var(--button);
+}
+
+.link-style {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: var(--text-black);
+    padding: 8px;
+    
+}
+
+.menu-item:hover .link-style {
+    color: var(--menu-text-hover);
+    font-weight: 600;
+}
+
+.link-style:hover {
+    color: var(--button);
+}
+
+.menu-item.active {
+    background-color: var(--card-2);
+    color: var(--button);
+}
+
+.menu-item.active .nav-icons {
+    background-color: var(--icon-hover-backgrd);
+    color: var(--background-2);
+    border-radius: 5px;
+}
